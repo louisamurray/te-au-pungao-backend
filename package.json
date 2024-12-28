@@ -1,9 +1,10 @@
 {
   "name": "te-au-pungao-backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Backend service for Te Au Pūngao",
+  "main": "server.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/louisamurray/te-au-pungao-backend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Louisa Murray",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/louisamurray/te-au-pungao-backend/issues"
@@ -24,5 +25,8 @@
     "pg-hstore": "^2.3.4",
     "sequelize": "^6.37.5",
     "sequelize-cli": "^6.6.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
