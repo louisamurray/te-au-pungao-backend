@@ -1,0 +1,44 @@
+{
+  "development": {
+      "username": "te_au_pungao_db_user",
+      "password": "LOLDE5QwNhsmMsPqVNlYnl2cclbMKHcA",
+      "database": "te_au_pungao_db",
+      "host": "dpg-ctnnbs3tq21c73cno6kg-a.singapore-postgres.render.com",
+      "port": 5432,
+      "dialect": "postgres",
+      "dialectOptions": {
+          "ssl": {
+              "require": true,
+              "rejectUnauthorized": false
+          }
+      }
+  },
+  "test": {
+      "username": "te_au_pungao_db_user",
+      "password": "LOLDE5QwNhsmMsPqVNlYnl2cclbMKHcA",
+      "database": "te_au_pungao_db_test",
+      "host": "dpg-ctnnbs3tq21c73cno6kg-a.singapore-postgres.render.com",
+      "port": 5432,
+      "dialect": "postgres",
+      "dialectOptions": {
+          "ssl": {
+              "require": true,
+              "rejectUnauthorized": false
+          }
+      }
+  },
+  "production": {
+      "username": "te_au_pungao_db_user",
+      "password": "LOLDE5QwNhsmMsPqVNlYnl2cclbMKHcA",
+      "database": "te_au_pungao_db",
+      "host": "dpg-ctnnbs3tq21c73cno6kg-a.singapore-postgres.render.com",
+      "port": 5432,
+      "dialect": "postgres",
+      "dialectOptions": {
+          "ssl": {
+              "require": true,
+              "rejectUnauthorized": false
+          }
+      }
+  }
+}
